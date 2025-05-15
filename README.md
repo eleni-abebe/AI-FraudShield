@@ -61,26 +61,7 @@ Accuracy	97.1%	89%
 Precision	0.95	0.82
 Recall	0.91	0.79
 AUC-ROC	0.98	0.91
-🔮 SAMPLE PREDICTION
-python
-# Input Transaction
-{
-  "Time": 406,
-  "V1": -1.359807,
-  "V2": -0.072781,
-  "Amount": 149.62
-}
 
-# API Response
-{
-  "prediction": "fraud",
-  "confidence": 0.963,
-  "feature_contributions": {
-    "V17": -2.34,
-    "V14": -1.87,
-    "Amount": 0.92
-  }
-}
 🛠 DEVELOPMENT WORKFLOW
 Data Exploration: Jupyter notebook in docs/analysis.ipynb
 
